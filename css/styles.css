@@ -1,0 +1,153 @@
+body{
+  margin: 0px;
+}
+
+.flex-conatiner{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+img {
+  width: 65px;
+  height: 45px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 5px;
+  font-stretch: expanded;
+}
+
+/*************************DIV section***********************/
+
+.first-section{
+  margin-bottom: 20px;
+  border: 1px solid silver;
+  min-width: 350px;
+  min-height: 58px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 7px;
+}
+
+.first-section input{
+  border: none;
+  outline: none;
+  padding-top: 29px;
+  font-size: 16px;
+  padding-left: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+  min-width: 336px;
+}
+
+.first-section label{
+  color: grey;
+  position: absolute;
+  transform: translate(3px,-31px);
+  font-size: 18px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/*************SECOND-ONE*************/
+
+.second-section{
+  margin-bottom: 20px;
+  border: 1px solid silver;
+  min-width: 350px;
+  min-height: 58px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 7px;
+}
+
+.second-section input{
+  border: none;
+  outline: none;
+  padding-top: 26px;
+  font-size: 19px;
+  padding-left: 3px;
+  min-width: 336px;
+}
+
+.second-section label{
+  color: grey;
+  position: absolute;
+  transform: translate(3px,-31px);
+  font-size: 18px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+/**********************THIRD-section**************/
+
+.third-section button{
+  min-width: 355px;
+  min-height: 45px;
+  background-color: hsl(200, 100%, 43%);
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 23px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  display: inline-flex;
+  text-decoration: none;
+  color: hsl(200, 100%, 43%);
+  position: relative;
+  left: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  display: inline-flex;
+  position: relative;
+  left: 48px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/******************************HOVER_SECTION**********************/
+.submit-btn:hover {
+  background-color: hsl(209, 100%, 50%);
+}
+
+.first-section:hover{
+    border: 1px solid hsl(200, 100%, 43%);
+}
+
+ label:hover {
+  color: hsl(200, 100%, 43%);
+}
+
+.second-section:hover{
+    border: 1px solid hsl(200, 100%, 43%);
+}
+
+a:hover{
+  text-decoration: underline;+
+}
+
+/***********************ANIMATIONS-EFFECT***********************/
+.first-section input:focus ~ label{
+  color: hsl(200, 100%, 43%)
+}
+
+.second-section input:focus ~ label{
+  color: hsl(200, 100%, 43%)
+}
+
+.first-section input:focus ~ label,
+.first-section input:valid ~ label{
+  transform: translate(3px,-45px);
+  font-size: 15px;
+}
+
+.second-section input:focus ~ label,
+.second-section input:valid ~ label{
+  transform: translate(3px,-45px);
+  font-size: 15px;
+}

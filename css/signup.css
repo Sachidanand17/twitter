@@ -433,12 +433,17 @@ button:hover {
 
   .month{
     width: 170px;
+    background-color: white;
   }
 
   .month label{
     position: relative;
     left: 8px;
     top: -57px;
+  }
+  
+  .month select{
+    background-color: white;
   }
 
   .dropdown1 {
@@ -452,12 +457,17 @@ button:hover {
 
   .day{
     width: 90px;
+    background-color: white;
   }
 
   .day label{
     position: relative;
     left: 8px;
     top: -57px;
+  }
+  
+  .day select{
+    background-color: white;
   }
 
   .dropdown2{
@@ -471,12 +481,17 @@ button:hover {
 
   .year{
     width: 120px;
+    background-color: white;
   }
 
   .year label{
     position: relative;
     left: 8px;
     top: -57px;
+  }
+  
+  .year select{
+    background-color: white;
   }
 
   .dropdown3{

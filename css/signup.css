@@ -378,6 +378,12 @@ button:hover {
   .first-part{
     width: 100%;
   }
+  
+  .first-part button{
+    position: absolute;
+    left: 80%;
+  }
+  
 
   .second-part{
     width: 100%;

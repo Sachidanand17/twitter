@@ -1,0 +1,485 @@
+body{
+  background-color: hsl(0, 0%, 68%);
+  align-content: center;
+}
+
+img{
+  width: 53px;
+  height: 36px;
+  position: absolute;
+  right: 47%;
+}
+.flex-container{
+  display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 69px;
+  left: 31%;
+  width: 550px;
+  height: 595px;
+  padding: 20px;
+  border-radius: 19px;
+  background-color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/**********First-part***************/
+.first-part{
+  margin-bottom: 12px;
+  height: 25px;
+}
+
+.first-part button{
+  width: 70px;
+  height: 35px;
+  border-radius: 21px;
+  position: absolute;
+  left: 85%;
+  border: none;
+  outline: none;
+  background-color: hsl(219, 100%, 57%);
+  color: white;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 8px;
+  padding-bottom: 2px;
+}
+
+/****************second-part****************/
+
+.second-part{
+  margin-bottom: 9px;
+  height: 140px;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+.ip{
+  border: 1px solid silver;
+  height: 53px;
+  width: 98%;
+  border-radius: 6px;
+}
+
+.ip input{
+  width: 90%;
+  border: none;
+  outline: none;
+  padding-top: 24px;
+  font-size: 18px;
+  padding-left: 7px;
+}
+
+.ip label{
+  position: absolute;
+  left: 25px;
+  color: grey;
+  transform: translateY(12px);
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/**********************THIRD-PART****************/
+.third-part{
+  margin-bottom: 33px;
+  border: 1px solid silver;
+  height: 53px;
+  width: 98%;
+  border-radius: 6px;
+}
+
+.third-part input{
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-top: 24px;
+    font-size: 18px;
+    padding-left: 7px;
+}
+
+.third-part label{
+  position: absolute;
+  left: 25px;
+  color: grey;
+  transform: translateY(12px);
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/**********a**********/
+a{
+  text-decoration: none;
+  color: hsl(190, 100%, 42%);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/*************************FOURTH-PART**********************/
+.fourth-part{
+  height: 140px;
+}
+
+.fourth-part h1{
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.fourth-part p{
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: hsl(25, 0%, 10%);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/********************fifth-part*****************/
+.fifth-part{
+  display: flex;
+  justify-content: space-between;
+}
+
+.month{
+  height: 55px;
+  width: 255px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+
+.day{
+    height: 55px;
+    width: 100px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
+.year{
+  height: 55px;
+  width: 150px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+
+.month select{
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 98%;
+  height: 65%;
+  padding-left:9px;
+  position: relative;
+  top: 19px;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+
+}
+
+.month label{
+  position: relative;
+  z-index: +1;
+  bottom: 33px;
+  left: 9.5px;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: grey;
+  bottom: 60px;
+}
+
+.day select{
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 98%;
+  height: 65%;
+  padding-left:9px;
+  position: relative;
+  top: 19px;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+
+}
+
+.day label{
+  position: relative;
+  z-index: +1;
+  bottom: 33px;
+  left: 9.5px;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: grey;
+  bottom: 60px;
+}
+
+.year select{
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 98%;
+  height: 65%;
+  padding-left:9px;
+  position: relative;
+  top: 19px;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+
+}
+
+.year label{
+  position: relative;
+  z-index: +1;
+  bottom: 33px;
+  left: 9.5px;
+  font-size: 14px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: grey;
+  bottom: 60px;
+}
+
+/**********************ANIMATIONS******************/
+
+.ip input:focus ~ label{
+  color: hsl(200, 100%, 43%)
+}
+
+.third-part input:focus ~ label{
+  color: hsl(200, 100%, 43%)
+}
+
+
+.ip input:focus ~ label,
+.ip input:valid ~ label{
+  transform: translate(1px,-1px);
+  font-size: 15px;
+}
+
+.third-part input:focus ~ label,
+.third-part input:valid ~ label{
+  transform: translate(1px,-1px);
+  font-size: 15px;
+}
+
+.month label:focus ~ label{
+  color: hsl(200, 100%, 43%)
+}
+
+/**************HOVER***********/
+
+button:hover {
+  background-color: hsl(209, 100%, 50%);
+}
+
+.third-part:hover{
+    border: 1px solid hsl(200, 100%, 43%);
+}
+
+.ip:hover{
+    border: 1px solid hsl(200, 100%, 43%);
+}
+
+.month:hover{
+    border: 1px solid hsl(200, 100%, 43%);
+}
+.day:hover{
+    border: 1px solid hsl(200, 100%, 43%);
+}
+.year:hover{
+    border: 1px solid hsl(200, 100%, 43%);
+}
+
+.month:hover label{
+    color: hsl(200, 100%, 43%);
+}
+
+.day:hover label{
+    color: hsl(200, 100%, 43%);
+}
+
+.year:hover label{
+    color: hsl(200, 100%, 43%);
+}
+
+.month select:focus ~ .dropdown1 {
+  color: hsl(200, 100%, 43%);
+}
+
+.year select:focus ~ .dropdown3 {
+  color: hsl(200, 100%, 43%);
+}
+
+
+.day select:focus ~ .dropdown2 {
+  color: hsl(200, 100%, 43%);
+}
+
+/************DROPDOWN*********************************/
+.dropdown3 {
+  position: relative;
+  left: 75px;
+  bottom: 34px;
+  height: 10px;
+  color: silver;
+  pointer-events: none;
+}
+
+.dropdown2 {
+  position: relative;
+  left: 35px;
+  bottom: 34px;
+  height: 10px;
+  color: silver;
+  pointer-events: none;
+}
+
+.dropdown1 {
+  position: relative;
+  left: 165px;
+  bottom: 34px;
+  height: 10px;
+  color: silver;
+  pointer-events: none;
+}
+
+/******************RESPONSIVE**************************/
+@media only screen and (max-width: 480px) {
+  body{
+  margin-left: 0;
+  padding-left: 0;
+  background-color: white;
+}
+
+  .flex-container{
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    border: none;
+    box-shadow: none;
+  }
+
+  .first-part{
+    width: 100%;
+  }
+
+  .second-part{
+    width: 100%;
+    margin-left: 3px;
+  }
+
+  .third-part{
+    width: 100%;
+    margin-left: 3px;
+  }
+
+  .ip input:focus ~ label,
+  .ip input:valid ~ label{
+    transform: translate(-5px,2px);
+    font-size: 15px;
+  }
+
+  .third-part input:focus ~ label,
+  .third-part input:valid ~ label{
+    transform: translate(-5px,2px);
+    font-size: 15px;
+  }
+
+  .third-part label{
+    position: absolute;
+    left: 35px;
+  }
+
+  .ip label{
+    position: absolute;
+    left: 35px;
+  }
+
+  a{
+    margin-left: 2px;
+  }
+
+  .fourth-part{
+    width: 100%;
+    margin-left: 2px;
+    margin-bottom: 40px;
+  }
+
+  .fifth-part{
+    justify-content: none;
+  }
+
+  .month{
+    width: 170px;
+  }
+
+  .month label{
+    position: relative;
+    left: 8px;
+    top: -57px;
+  }
+
+  .dropdown1 {
+    position: relative;
+    left: 78px;
+    bottom: 34px;
+    height: 10px;
+    color: silver;
+    pointer-events: none;
+  }
+
+  .day{
+    width: 90px;
+  }
+
+  .day label{
+    position: relative;
+    left: 8px;
+    top: -57px;
+  }
+
+  .dropdown2{
+    position: relative;
+    left: 25px;
+    bottom: 34px;
+    height: 10px;
+    color: silver;
+    pointer-events: none;
+  }
+
+  .year{
+    width: 120px;
+  }
+
+  .year label{
+    position: relative;
+    left: 8px;
+    top: -57px;
+  }
+
+  .dropdown3{
+    position: relative;
+    left: 50px;
+    bottom: 34px;
+    height: 10px;
+    color: silver;
+    pointer-events: none;
+  }
+
+/******************MOBILE***************/

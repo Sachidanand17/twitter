@@ -381,7 +381,7 @@ button:hover {
   
   .first-part button{
     position: absolute;
-    left: 80%;
+    left: 80.0000001%;
   }
   
 

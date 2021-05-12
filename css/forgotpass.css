@@ -1,0 +1,169 @@
+
+body{
+  height: 900px;
+  margin: 0;
+}
+
+.flex-container{
+  align-items: center;
+  margin: auto;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-content: center;
+  position: relative;
+  border-bottom: 1px solid silver;
+  margin-bottom: 60px;
+}
+
+.part-1{
+  height: 40px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 31.6%;
+}
+
+.part-1 p{
+  margin: 0;
+  font-size: 17px;
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.dropdown-section{
+  align-items: center;
+  position: absolute;
+  left: 63%;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown-section p{
+  align-items: center;
+  margin-top: 10px;
+  color: grey;
+  padding-right: 6px;
+  cursor: pointer;
+
+}
+
+.fa {
+  display: inline-block;
+  position: relative;
+  bottom:3px;
+  color: grey;
+  cursor: pointer;
+}
+
+.dropdown{
+  width: 250px;
+  height: 600px;
+  border: 1px solid silver;
+  position: absolute;
+  top:100%;
+  left: -80px;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+  display: none;
+}
+
+.dropdown ul{
+  list-style-type: none;
+  line-height: 23px;;
+  padding-left: 6px;
+
+}
+
+.dropdown li{
+  font-size: 12px;
+  float: left;
+  width: 50%;
+  display: block;
+  color: #66757f;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: #66757f;
+}
+
+li:hover{
+  background-color: #66757f;
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
+
+.dropdown-section:hover .dropdown{
+  display: block;
+}
+
+/**********************MAIN-SEC***************************/
+
+.main-section{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 32%;
+  margin: auto;
+  align-content: center;
+  margin-top: 66px;
+  width: 400px;
+}
+
+.main-section h1{
+  font-size: 28px;
+  font-family: sans-serif;
+  margin-bottom: 22px;
+}
+
+.main-section p{
+  color: black;
+  font-size: 14px;
+  margin-bottom: 21px;
+  font-family: sans-serif;
+}
+
+.main-section input{
+  height: 26px;
+  width: 310px;
+  border-radius: 25px;
+  border: 1px solid silver;
+  margin-bottom: 30px;
+  outline: none;
+  padding-left: 15px;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+
+.main-section button{
+  width: 80px;
+  height: 34px;
+  border-radius: 28px;
+  border: none;
+  outline: none;
+  background-color: hsl(193, 100%, 43%);
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main-section input:hover{
+  border: 1px solid hsl(193, 100%, 43%);
+}
